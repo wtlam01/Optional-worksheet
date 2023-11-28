@@ -21,31 +21,6 @@ header {
     display: flex;
 }
 
-.box1 {
-    background-color: skyblue;
-    
-    height: 200px;
-    flex: 1 1 auto;
-
-}
-
-.box2 {
-
-    background-color: lightgreen;
-    
-    height: 200px;
-    flex: 1 1 auto;
-}
-
-.box3 {
-
-    background-color: darkmagenta;
-    
-    height: 200px;
-    flex: 1 1 auto;
-
-}
-
 /* section 2 center item */
 
 .section-two {
@@ -203,7 +178,7 @@ button:active{
 /* fotter goes here */
 footer{
     background-color: #F29F05;
-    height: 30px;
+    height: 50px;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: x-small;
@@ -216,7 +191,7 @@ footer{
   }
   
   .slider {
-    width: 300px;
+    width: 600px;
     text-align: center;
     overflow: hidden;
   }
@@ -249,9 +224,10 @@ footer{
     background: transparent;
   }
   .slides > div {
+    border: 3px solid purple;
     scroll-snap-align: start;
     flex-shrink: 0;
-    width: 300px;
+    width: 600px;
     height: 300px;
     margin-right: 50px;
     border-radius: 10px;
@@ -266,9 +242,10 @@ footer{
     align-items: center;
     font-size: 100px;
   }
-  .slides > div:target {
+  /* .slides > div:target {
   /*   transform: scale(0.8); */
-  }
+  /* } */ 
+
   .author-info {
     background: rgba(0, 0, 0, 0.75);
     color: white;
@@ -280,18 +257,10 @@ footer{
     width: 100%;
     margin: 0;
   }
+
   .author-info a {
     color: white;
   }
-  img {
-    object-fit: cover;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
   .slider > a {
     display: inline-flex;
     width: 1.5rem;
@@ -304,9 +273,11 @@ footer{
     margin: 0 0 0.5rem 0;
     position: relative;
   }
+
   .slider > a:active {
     top: 1px;
   }
+
   .slider > a:focus {
     background: #000;
   }
@@ -318,5 +289,6 @@ footer{
     }
   }
   
-
-
+.slide-image{
+    border-radius: 10px;
+}
