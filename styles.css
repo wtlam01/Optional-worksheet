@@ -215,6 +215,7 @@ footer{
   .slides::-webkit-scrollbar {
     width: 10px;
     height: 10px;
+    background-color: white;
   }
   .slides::-webkit-scrollbar-thumb {
     background: black;
@@ -279,7 +280,7 @@ footer{
   }
 
   .slider > a:focus {
-    background: #000;
+    background:#000000;
   }
   
   /* Don't need button navigation */
